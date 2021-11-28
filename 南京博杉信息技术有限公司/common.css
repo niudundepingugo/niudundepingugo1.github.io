@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.box{
+    height: 50px;
+    background-color: #222222;
+ 
+}
+.fl ul li{
+    width: 183px;
+    height: 50px;
+    float:left;
+    color: #aaaaaa;
+    font-size: 10px;
+    line-height: 50px;
+    text-align: center;
+    border-right:1px solid #333333;
+}
+.fr li {
+    float:right;
+}
+.fr ul .a{
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    color:#777777;
+    
+}
+.fr ul .b{
+    position:relative;
+    width: 70px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ffc000;
+}
+.header{
+    position:relative;
+    height: 655px;
+    background:url(../image/Layer45.png) no-repeat;
+}
+.header  .logo {
+  position:absolute;
+  top:20px;
+  width: 174px;
+  height: 61px;
+  background: url(../image/南京大学LOGO.png) no-repeat;
+  z-index: auto;
+}
+.head ul li{
+   float: right;
+    width: 80px;
+     height: 76px;
+     line-height: 76px;
+     color: #ffffff;
+     font-size: 14px;
+    padding-left: 38px;
+}
+.head ul li:hover{
+    border-bottom: 2px solid #ffc000;
+}
+.zx {
+    height: 90px;
+
+    margin-top: 15px;
+}
+.cb {
+     float: left;
+     width: 100px;
+     height: 90px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 25px;
+
+}
+.ik{
+    
+    position:relative;
+}
+
+/* 把li的父亲ul修改的足够宽一行能装下3个盒子，就不会换行了。 */
+.ik ul{
+    width: 1300px;
+}
+.ik ul li {
+    display:inline-block;
+    position:relative;
+    width: 360px;
+    height: 494px;
+    margin-right: 60px;
+    border: 1px solid #dddddd;
+}
+.ik .kl img{
+    position:absolute;
+    width: 100%;
+    object-fit: cover;
+}
+.ik .kl h4{
+    position:absolute;
+    top:293px;
+    height: 90px;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+}
+.ik .kl p{
+    position:absolute;
+    top:383px;
+    padding: 0 20px 0 20px;
+    font-size: 5px;
+}
+.ik .kl .rt p{
+    position:absolute;
+    top:450px;
+    padding-left: 20px;
+}
+.ik .kl .rt .yu{
+    position:absolute;
+    top:450px;
+    width: 80px;
+    height: 40px;
+    right: 0;
+    background-color: #ffc000;
+}
+
+
+.ik .il img{
+    position:absolute;
+    width: 100%;
+    object-fit: cover;
+}
+.ik .il h4{
+    position:absolute;
+    top:293px;
+    height: 90px;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+}
+.ik .il p{
+    position:absolute;
+    top:383px;
+    padding: 0 20px 0 20px;
+    font-size: 5px;
+}
+.ik .il .hj p{
+    position:absolute;
+    top:450px;
+    padding-left: 20px;
+}
+.ik .il .hj .op{
+    position:absolute;
+    top:450px;
+    width: 80px;
+    height: 40px;
+    right: 0;
+    background-color: #ffc000;
+}
+
+
+.ik .gh img{
+    position:absolute;
+    width: 100%;
+    object-fit: cover;
+}
+.ik .gh h4{
+    position:absolute;
+    top:293px;
+    height: 90px;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+}
+.ik .gh p{
+    position:absolute;
+    top:383px;
+    padding: 0 20px 0 20px;
+    font-size: 5px;
+}
+.ik .gh .gk p{
+    position:absolute;
+    top:450px;
+    padding-left: 20px;
+}
+.ik .gh .gk .cv{
+    position:absolute;
+    top:450px;
+    width: 80px;
+    height: 40px;
+    right: 0;
+    background-color: #ffc000;
+}
+
+.bob{
+    height: 260px;
+     margin-top:46px;
+    background-color: #ffc000;
+}
+.bob .w h2{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+.bob .w p{
+    margin-top: 20px;
+    text-align: center;
+    color:#ffffff;
+}
+.bob .w .fg{
+    width: 122px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin: auto;
+}
+
+.nm {
+    margin-top:50px;
+    height: 60px;
+}
+.nm h2{
+   float:left;
+    font-size: 40px;
+}
+.nm .jk1{
+    float: right;
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: 2px solid #5d5d5d;
+}
+
+
+
+
+ .we1  {
+    width: 1144px;
+    height: 153px;
+    border-bottom: 2px solid #c8e910; 
+ }
+ .we1 img{
+     float:left;
+     margin-top: 40px;
+     top:30px;
+ }
+ .we1  .df{
+     float:left;
+     margin-top: 35px;
+     margin-left: 45px;
+      font-size: 25px;
+ }
+ .we1  .ds{
+     float:left;
+     margin-top: 30px;
+     margin-left: 45px;
+     text-align: center;
+ }
+
+ 
+ .we2 {
+    width: 1144px;
+    height: 153px;
+    border-bottom: 2px solid #c8e910;
+    margin-top: 20px;
+ }
+ /* 一浮全浮 */
+ .we2 img{
+     float:left;
+     margin-top: 40px;
+     top:30px;
+ }
+ .we2  .df1{
+     float:left;
+     margin-top: 35px;
+     margin-left: 45px;
+      font-size: 25px;
+ }
+ .we2  .ds1{
+     float:left;
+     margin-top: 30px;
+     margin-left: 45px;
+     text-align: center;
+ }
+
+ .we3 {
+    width: 1144px;
+    height: 153px;
+    border-bottom: 2px solid #c8e910;
+    margin-top: 20px;
+ }
+ /* 一浮全浮 */
+ .we3 img{
+     float:left;
+     margin-top: 40px;
+     top:30px;
+ }
+ .we3  .df3{
+     float:left;
+     margin-top: 35px;
+     margin-left: 45px;
+      font-size: 25px;
+ }
+ .we3  .ds3{
+     float:left;
+     margin-top: 30px;
+     margin-left: 45px;
+     text-align: center;
+ }
+
+ .nm1 {
+    margin-top:50px;
+    height: 60px;
+}
+.nm1 h2{
+   float:left;
+    font-size: 40px;
+}
+.nm1 .jk2{
+    float: right;
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: 2px solid #5d5d5d;
+}
+/* w270 h238    w42 */
+
+.et{
+    width: 1300px;
+}
+.et li{
+    float:left;
+    width: 270px;
+    height: 238px;
+    border: 2px solid #0f0f0f;
+    border-bottom: 1px solid rgb(15, 212, 42);
+    margin-right: 42px;
+}
